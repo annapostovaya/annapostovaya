@@ -35,7 +35,7 @@ private int id_p;
 
 public String name_p;
 private SicknesssHistory SicknessHistory;
-private String information_p
+private String information_p;
 
 public Doctor (int id){
         id_p = id;
@@ -58,7 +58,7 @@ public void setId(int newId){
     public SicknesssHistory getSicknesssHistory (){
         return SicknesssHistory ;
     }
-public void setIformation(String newInformation){
+public void setInformation(String newInformation){
         information_p= newInformation;
     }
     public String getInformation(){
@@ -70,6 +70,7 @@ public void setIformation(String newInformation){
 
 public class SicknessHistory{
 private int number;
+private Date dateProduce;
 public String symptoms;
 public String therapy;
 public String past_doctors;
