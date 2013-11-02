@@ -21,10 +21,10 @@ public void setId(int newId){
         return name_d;
     }
 
-public void setspecialization(String newSpecialization){
+public void setSpecialization(String newSpecialization){
         specialization= newSpecialization;
     }
-    public String getspecialization(){
+    public String getSpecialization(){
         return specialization;
     }
     
@@ -35,7 +35,7 @@ private int id_p;
 
 public String name_p;
 private SicknesssHistory SicknessHistory;
-public  String information_p
+private String information_p
 
 public Doctor (int id){
         id_p = id;
