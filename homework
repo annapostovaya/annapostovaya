@@ -76,7 +76,7 @@ public String therapy;
 public String past_doctors;
 public String results;
 
-    public IdCard(int n){
+    public SickbessHistory(int n){
         number = n;
     }
     public void setNumber(int newNumber){
