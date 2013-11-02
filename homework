@@ -116,5 +116,7 @@ public void results(String newResults){
         diagnosis= newDiagnosis;
     }
     
-    
+   
+    public String getDiagnosis(){
+        return Diagnosis;
 }
