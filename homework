@@ -1,0 +1,114 @@
+public class Doctor{
+
+private int id_d;
+
+public String name_d;
+public String specialization;
+   
+public Doctor (int id){
+        id_d = id;
+    }
+public void setId(int newId){
+        id_d = newId;
+    }
+    public int getId(){
+        return id_d;
+    }
+    public void setName(String newName){
+        name_d = newName;
+    }
+    public String getName(){
+        return name_d;
+    }
+
+public void setspecialization(String newSpecialization){
+        specialization= newSpecialization;
+    }
+    public String getspecialization(){
+        return specialization;
+    }
+    
+}
+
+public class Patient{
+private int id_p;
+
+public String name_p;
+private SicknesssHistory SicknessHistory;
+public  String information_p
+
+public Doctor (int id){
+        id_p = id;
+    }
+public void setId(int newId){
+        id_p = newId;
+    }
+    public int getId(){
+        return id_p;
+    }
+    public void setName(String newName){
+        name_p = newName;
+    }
+    public String getName(){
+        return name_p;
+    }
+    public void setSicknesssHistory (SicknesssHistory  sh){
+        SicknesssHistory = sh;
+    }
+    public SicknesssHistory getSicknesssHistory (){
+        return SicknesssHistory ;
+    }
+public void setIformation(String newInformation){
+        information_p= newInformation;
+    }
+    public String getInformation(){
+        return information_p;
+    }
+}
+
+
+
+public class SicknessHistory{
+private int number;
+public String symptoms;
+public String therapy;
+public String past_doctors;
+public String results;
+
+    public IdCard(int n){
+        number = n;
+    }
+    public void setNumber(int newNumber){
+        number = newNumber;
+    }
+    public int getNumber(){
+        return number;
+    }
+
+ public void setSymptoms(String newSymptoms){
+        symptoms = newSymptoms;
+    }
+    public String getSymptoms(){
+        return symptoms ;
+    }
+ public void setTherapy(String newTherapy){
+        therapy= newTherapy;
+    }
+    public String getTherapy(){
+        return therapy;
+    }
+
+ public void setpast_doctors(String newPast_doctors){
+        past_doctors= newPast_doctors;
+    }
+    public String getPast_doctors(){
+        return past_doctors;
+    }
+
+public void results(String newResults){
+        results= newResults;
+    }
+    public String getResults(){
+        return results;
+    }
+}
