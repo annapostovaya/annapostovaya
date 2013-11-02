@@ -112,6 +112,9 @@ public void results(String newResults){
     public String getResults(){
         return results;
     }
+    public void diagnosis(String newDiagnosis){
+        diagnosis= newDiagnosis;
+    }
     
     
 }
