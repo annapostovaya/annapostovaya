@@ -98,7 +98,12 @@ public String results;
     public String getTherapy(){
         return therapy;
     }
-
+public void setDateProduce(Date newDateProduce{
+        dateProduce = newDateProduce;
+    }
+     public Date getDateProduce(){
+        return dateProduce;
+    }
  public void setpast_doctors(String newPast_doctors){
         past_doctors= newPast_doctors;
     }
