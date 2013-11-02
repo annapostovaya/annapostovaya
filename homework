@@ -72,10 +72,11 @@ public class SicknessHistory{
 private int number;
 public String symptoms;
 public String therapy;
+public String diagnosis;
 public String past_doctors;
 public String results;
 
-    public IdCard(int n){
+    public SicknessHistory(int n){
         number = n;
     }
     public void setNumber(int newNumber){
@@ -111,4 +112,6 @@ public void results(String newResults){
     public String getResults(){
         return results;
     }
+    
+    
 }
